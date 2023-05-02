@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ChatBot</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Question & Answer</div>
+        <div class="box">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>What is bootsrap?</p>
+                </div>
+            </div>
+            <br clear="both">
+            <div class="item right">
+                <div class="msg">
+                    <p>Boostrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites. Bootstrap provides a collection of syntax for template designs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>Is it necessary to use bootstrap in your web projects?</p>
+                </div>
+            </div>
+            <br clear="both">
+            <div class="item right">
+                <div class="msg">
+                    <p>Yes, it is necessary to use bootstrap in web projects because it maintain consistency. Boostrap eliminates the use of libraries that always differ from one developer to the other. Thus, you get to maintain the stability of your project elements no matter who is tackling them. It is great tool for web developers and designers because it: Speeds up development. Makes responsive design easier and more consistent.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="item">
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="msg">
+                    <p>Give examples of some websites that currently use or used Bootstrap in the past?</p>
+                </div>
+            </div>
+            <br clear="both">
+            <div class="item right">
+                <div class="msg">
+                    <p>Collorlib, Wokine, Jack Watkins, Bite Toothpaste Bits, Etsy, PopArt Studio</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="typing-area">
+            <div class="input-field">
+                <input type="text" placeholder="Type your message" required>
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
